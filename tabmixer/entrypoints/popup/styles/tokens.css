@@ -1,0 +1,68 @@
+/* tokens.css — LockIn. Tema escuro é o padrão; claro via prefers-color-scheme ou data-theme="light". */
+:root, [data-theme="dark"] {
+  --bg: #0d0e0f;
+  --panel: #16171a;
+  --well: #222428;
+  --line: #2a2c30;
+  --line-strong: #656a72;
+  --ink: #eceae4;
+  --ink-muted: #9a9ca2;
+  --signal: #d4ff3d;
+  --signal-dim: #262e0c;
+  --on-signal: #0d0e0f;
+  --hot: #ff6b3d;
+  --on-hot: #0d0e0f;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg: #efeee9;
+    --panel: #fbfbf8;
+    --well: #e2e1db;
+    --line: #d6d4cc;
+    --line-strong: #86837b;
+    --ink: #121212;
+    --ink-muted: #5b5953;
+    --signal: #4a6600;
+    --signal-dim: #e6edcf;
+    --on-signal: #ffffff;
+    --hot: #a8340a;
+    --on-hot: #ffffff;
+  }
+}
+[data-theme="light"] {
+  --bg: #efeee9;
+  --panel: #fbfbf8;
+  --well: #e2e1db;
+  --line: #d6d4cc;
+  --line-strong: #86837b;
+  --ink: #121212;
+  --ink-muted: #5b5953;
+  --signal: #4a6600;
+  --signal-dim: #e6edcf;
+  --on-signal: #ffffff;
+  --hot: #a8340a;
+  --on-hot: #ffffff;
+}
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --radius-0: 0px;
+  --radius-1: 2px;
+  --popup-width: 380px;
+  --control-md: 28px;
+  --control-sm: 24px;
+  --thumb-width: 64px;
+  --fader-segment: 4px;
+  --font-sans: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+.track-title { font-family: var(--font-sans); font-size: 13px; line-height: 16px; font-weight: 600; }
+.body { font-family: var(--font-sans); font-size: 13px; line-height: 18px; font-weight: 400; }
+.wordmark { font-family: var(--font-mono); font-size: 13px; line-height: 16px; font-weight: 700; letter-spacing: 0.16em; }
+.control-label { font-family: var(--font-mono); font-size: 11px; line-height: 12px; font-weight: 600; letter-spacing: 0.08em; }
+.readout { font-family: var(--font-mono); font-size: 12px; line-height: 12px; font-weight: 500; }
+.micro-label { font-family: var(--font-mono); font-size: 10px; line-height: 12px; font-weight: 600; letter-spacing: 0.12em; }
+.meta { font-family: var(--font-mono); font-size: 11px; line-height: 14px; font-weight: 400; }
