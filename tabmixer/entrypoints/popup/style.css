@@ -1,0 +1,7 @@
+/* entrypoints/popup/style.css */
+@import "./styles/fonts.css";
+@import "./styles/tokens.css";
+@import "./styles/components.css";
+
+/* Body sem margem e com fundo bg — evita borda branca no popup do Firefox. */
+body { margin: 0; background: var(--bg); }
