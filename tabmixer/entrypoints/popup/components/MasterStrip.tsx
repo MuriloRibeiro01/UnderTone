@@ -29,7 +29,7 @@ export function MasterStrip({
       <div className="li-master-top">
         <span className="li-wordmark">
           <i aria-hidden="true" />
-          LockIn
+          UnderTone
         </span>
         <span className="li-count">
           {pad2(playingCount)}/{pad2(totalCount)} tocando

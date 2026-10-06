@@ -1,4 +1,4 @@
-/* tokens.css — LockIn. Tema escuro é o padrão; claro via prefers-color-scheme ou data-theme="light". */
+/* tokens.css — UnderTone. Tema escuro é o padrão; claro via prefers-color-scheme ou data-theme="light". */
 :root, [data-theme="dark"] {
   --bg: #0d0e0f;
   --panel: #16171a;

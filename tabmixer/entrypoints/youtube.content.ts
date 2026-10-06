@@ -12,7 +12,7 @@ export default defineContentScript({
     const getVideo = () => document.querySelector<HTMLVideoElement>("video");
 
     let master: MasterState = { volume: 100, muted: false };
-    // null até o canal ser controlado pelo LockIn: antes disso o volume do player é respeitado.
+    // null até o canal ser controlado pelo UnderTone: antes disso o volume do player é respeitado.
     let channel: { volume: number; muted: boolean } | null = null;
 
     const apply = () => {

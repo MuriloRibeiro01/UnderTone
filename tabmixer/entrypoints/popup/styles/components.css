@@ -1,4 +1,4 @@
-/* LockIn — componentes. Depende de tokens.css (variáveis --bg, --ink, --signal…). */
+/* UnderTone — componentes. Depende de tokens.css (variáveis --bg, --ink, --signal…). */
 .li-popup { width: var(--popup-width, 380px); background: var(--bg); color: var(--ink); font-family: var(--font-sans); border: 1px solid var(--line); box-sizing: border-box; }
 .li-popup *, .li-master *, .li-strip * { box-sizing: border-box; }
 .li-icon { display: block; flex: none; }

@@ -1,6 +1,6 @@
-# LockIn
+# UnderTone
 
-Uma mesa de som para as abas do navegador. O LockIn é uma extensão para Firefox e Chrome que lista os vídeos do YouTube abertos e permite controlar cada aba pelo popup: pausar, retomar, silenciar e ajustar o volume. Também há um volume master que vale para todas as abas.
+Uma mesa de som para as abas do navegador. O UnderTone é uma extensão para Firefox e Chrome que lista os vídeos do YouTube abertos e permite controlar cada aba pelo popup: pausar, retomar, silenciar e ajustar o volume. Também há um volume master que vale para todas as abas.
 
 ## Funcionalidades
 
@@ -65,7 +65,7 @@ Se uma aba já estava aberta antes de a extensão ser instalada, ela ainda não 
 
 ```
 docs/
-  LockIn-Design-System.pdf     especificação visual do popup
+  UnderTone-Design-System.pdf     especificação visual do popup
 tabmixer/
   wxt.config.ts                manifest e permissões
   utils/mixer.ts               tipos e mensagens entre o popup e o content script
@@ -80,7 +80,7 @@ tabmixer/
 
 ## Design system
 
-O visual do popup segue o [LockIn Design System](docs/LockIn-Design-System.pdf), que define cores (12 tokens em dois temas), tipografia (IBM Plex Sans e Mono), medidas, estados e componentes. `tokens.css` e `components.css` são cópias literais dos apêndices A e B do documento. Ao mudar o visual, atualize o documento primeiro.
+O visual do popup segue o [UnderTone Design System](docs/UnderTone-Design-System.pdf), que define cores (12 tokens em dois temas), tipografia (IBM Plex Sans e Mono), medidas, estados e componentes. `tokens.css` e `components.css` são cópias literais dos apêndices A e B do documento. Ao mudar o visual, atualize o documento primeiro.
 
 As fontes são empacotadas na extensão via `@fontsource`, então o popup não faz requisições de rede para carregá-las.
 
