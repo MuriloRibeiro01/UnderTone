@@ -4,14 +4,13 @@ import { Popup, type PopupTab } from "./components/Popup";
 import {
   MASTER_KEY,
   PAUSED_BY_ALL_KEY,
+  URL_PATTERNS,
   type ChannelState,
   type MasterState,
   type Message,
 } from "@/utils/mixer";
 
 type ChannelTab = PopupTab & { id: number; volume: number; muted: boolean };
-
-const URL_PATTERNS = ["*://*.youtube.com/watch*", "*://*.youtube.com/shorts/*"];
 
 function getVideoId(url: string): string | null {
   try {
